@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Check and ESLint and Prettier
+npm run lint:fix
+
+echo '✅ Passes ESLint and Prettier tests'
