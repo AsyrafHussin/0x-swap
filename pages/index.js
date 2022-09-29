@@ -1,7 +1,9 @@
+import Swap from "../components/Swap";
+
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold text-center py-6">0x Swap</h1>
+    <div className="w-full flex justify-center pt-12 px-4">
+      <Swap />
     </div>
   );
 }
