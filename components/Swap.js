@@ -7,14 +7,14 @@ export default function Swap() {
         <div className="card-body">
           <h2 className="card-title">Swap</h2>
 
-          <div className="bg-primary-content rounded-lg mt-4 p-4 flex justify-around items-center gap-2">
+          <div className="bg-base-200 rounded-lg mt-4 p-4 flex justify-around items-center gap-2">
             <input
               type="text"
               placeholder="Amount"
               className="input input-ghost w-full max-w-xs"
             />
 
-            <select className="select select-bordered">
+            <select className="select select-bordered text-primary">
               <option disabled selected>
                 Select a token
               </option>
@@ -25,7 +25,7 @@ export default function Swap() {
 
           <div className="relative">
             <div className="flex w-full justify-center absolute -top-6">
-              <button className="btn btn-circle btn-outline bg-base-300">
+              <button className="btn btn-circle">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -46,14 +46,14 @@ export default function Swap() {
             </div>
           </div>
 
-          <div className="bg-primary-content rounded-lg mt-0 p-4 flex justify-around items-center gap-2">
+          <div className="bg-base-200 rounded-lg mt-0 p-4 flex justify-around items-center gap-2">
             <input
               type="text"
               placeholder="Amount"
               className="input input-ghost w-full max-w-xs"
             />
 
-            <select className="select select-bordered">
+            <select className="select select-bordered text-primary">
               <option disabled selected>
                 Select a token
               </option>
